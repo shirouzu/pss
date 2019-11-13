@@ -1,14 +1,12 @@
-pss: ps command with PSS/USS information
+# What is pss:
+ps command with PSS/USS information
 
-Usage:
- % pss [ps args(default: aux)...]
+# Usage:
+pss [ps args(default: aux)...]
 
-Build:
- # go build pss.go
+# Build:
+go build pss.go
 
-Recommend to set setuid bit for reading /proc/xxx/smaps
- # chown root.root pss
- # chmod 4755 pss
-
-
-
+# Recommend to set setuid bit for reading /proc/xxx/smaps
+1st step: chown root.root pss<br>
+2nd step: chmod 4755 pss
