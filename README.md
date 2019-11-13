@@ -8,5 +8,5 @@ pss [ps args(default: aux)...]
 go build pss.go
 
 # Recommend to set setuid bit for reading /proc/xxx/smaps
-1st step: chown root.root pss
+1st step: chown root.root pss<br>
 2nd step: chmod 4755 pss
